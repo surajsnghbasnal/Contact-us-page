@@ -1,0 +1,21 @@
+
+.btnBlue {
+    @apply  py-2 px-4 rounded-md;
+    @apply bg-blue-500 text-white;
+}
+
+.btnBlue:hover {
+    transition:  all 0.3s ease;
+    @apply bg-blue-700;
+}
+
+.outlineBtn{
+    background-color: white;
+    border: 1px solid #111;
+    color:#111;
+    width: 90% !important;
+}
+.outlineBtn:hover{
+    transition:  all 0.3s ease;
+    background-color: #dadada;
+}

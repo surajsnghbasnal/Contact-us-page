@@ -1,0 +1,27 @@
+.formControll{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.formControll input{
+    height: 40px;
+    padding: 2px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.formControll label{
+    position: absolute;
+    font-size: 14px;
+    top: 0px;
+    left: 15px;
+    background-color: #fff;
+    padding: 0px 5px;
+    font-weight: 500;
+}
+.formControll textarea{
+    padding: 5px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
